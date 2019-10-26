@@ -38,4 +38,8 @@ public class Customer {
     public void setCustomerId(int customerId) {
         this.customerId = customerId;
     }
+
+    public void withDraw(double withDrawAmount){
+//        this.amounts = this.amounts - withDrawAmount;
+    }
 }
